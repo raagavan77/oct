@@ -11,4 +11,7 @@ echo "5% of tax"
 elif [ $salary -gt 40000 ];
 then
 echo "10% of tax"
+elif [ $salary -eq 20000 ];
+then
+echo "2% of tax"
 fi
